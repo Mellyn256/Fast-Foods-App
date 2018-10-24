@@ -1,0 +1,173 @@
+
+
+        body {
+          margin: 0;
+          font-family: times new roman;
+		  background-color: silver;
+		  font-size: 17px;
+        }
+        
+        
+    
+  .registerbordered {
+    width: 500px;
+    height: 500px;
+	background-color: orange;
+	position: absolute;
+	 padding: 60px;
+	top: 50%;
+    left: 40%;
+    transform: translate(-10%, -50%);
+  }
+  .registertexted {
+    width: 300px;
+    height: 30px;
+    padding: 0px;
+    border: 0px solid;
+	text-align: left;
+	size: 70;
+  }
+  .registertexted2 {
+    width: 450px;
+    height: 30px;
+    padding: 0px;
+    border: 0px solid;
+	text-align: left;
+	size: 70;
+  }
+  .registerbutton {
+    width: 80px;
+    height: 40px;
+    padding: 0px;
+    border: 0px solid;
+	background-color: snow;
+  } 
+  .loginbordered {
+  width: 300px;
+  height: 400px;
+	background-color: orange;
+	position: absolute;
+	padding: 60px;
+	top: 80%;
+  left: 60%;
+  transform: translate(-50%, -130%);
+  }
+  .labelled {
+	 display: block;
+    text-align: left;
+  }
+    .requesttextarea {
+    width: 400px;
+    height: 50px;
+    padding: 0px;
+    border: 0px solid;
+
+  }
+
+
+.container {
+    position: relative;
+    width: 76%;
+    height: 127%;
+}
+.signup {
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+	width: 150px;
+    height: 30px;
+}
+	.foodedit {
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+	width: 50px;
+    height: 20px;
+}
+.container img {
+  width: 127%;
+  height: 76%;
+}
+.admin-body
+{ 
+background-color: white;
+font-family: times new roman;
+}
+
+.table
+{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#myTable {
+  border-collapse: collapse;
+  width: 50%;
+  border: 5px solid #ddd;
+  font-size: 15px;
+  background-color:white;
+
+  
+}
+#myTable, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px;
+	align:center;
+}
+#myTable  th {
+    background-color: green;
+    color: Black;
+	font-size:15px;
+}
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+		
+		.topnav {
+  overflow: hidden;
+  background-color: orange;
+  align: left;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  background-color: green;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
